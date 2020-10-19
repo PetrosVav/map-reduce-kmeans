@@ -28,10 +28,5 @@ cat kmeans.res
 python kml.py
 ```
 ## Results
-```
-[-74.33685886  40.71401562]
-[-73.84222159  40.71854692]
-[-73.99625567  40.71627292]
-[-73.99097947  40.74444285]
-[-73.96875398  40.77099479]
-```
+![alt text](https://github.com/PetrosVav/map-reduce-kmeans/blob/main/results.PNG)
+![alt text](https://github.com/PetrosVav/map-reduce-kmeans/blob/main/kml.png)
