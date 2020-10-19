@@ -56,5 +56,6 @@ for i in range(k):
         print i+1, centroids[i]
 print ""
 
-#sc.parallelize(output).coalesce(1, True).saveAsTextFile("hdfs://master:9000/output")
+centroids = sc.parallelize(centroids)
+centroids.saveAsTextFile("hdfs://master:9000/kmeans.res")
 
