@@ -1,6 +1,6 @@
 # Clustering of Taxi Trip Data using Spark
 ## Dataset
-The dataset is the 2015 Yellow Taxi Trip Data. It includes trip records from all trips completed in yellow taxis from in NYC from January to June in 2015. Due to limited resources we used a subset o 2 GB of the dataset. This subset is availlable [here](http://www.cslab.ntua.gr/courses/atds/yellow_trip_data.zip). The .zip file contains two .csv files. The first contains all the necessary information about a route and the second contains information about the taxi vendors.
+The dataset is the 2015 Yellow Taxi Trip Data. It includes trip records from all trips completed in yellow taxis from in NYC from January to June in 2015. Due to limited resources we used a subset of 2 GB of the dataset. This subset is availlable [here](http://www.cslab.ntua.gr/courses/atds/yellow_trip_data.zip). The .zip file contains two .csv files. The first contains all the necessary information about a route and the second contains information about the taxi vendors.
 ## Algorithm
 We implemented the K-means with k=5, that clusters the pickup locations in five regions, in order to find the coordinates of the top 5 pickup locations.
 ## Requirements
